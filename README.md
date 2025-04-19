@@ -1,13 +1,22 @@
-# Pronunciamento_Presidente_Raspagem_Mineracao_Dados
-⚠️ Atenção: Exercício de Raspagem, Mineração e Transformação de Dados tirados do canal do youtube, Programação Dinâmica, este exercicio transforma os pronunciamentos do presidente em jsons
+# Pronunciamentos do Presidente - Raspagem e Mineração de Dados
 
+⚠️ **Atenção**: Este projeto é um exercício de raspagem, mineração e transformação de dados, inspirado no canal [Programação Dinâmica](https://www.youtube.com/c/ProgramacaoDinamica). O objetivo é extrair pronunciamentos oficiais do Presidente Lula em 2025 e transformá-los em dados estruturados (JSON).
 
-# Sites que tirei o pronunciamento do presidente (Lula - 2025)
-https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/discursos-e-pronunciamentos
+## 📌 Visão Geral
+Este projeto realiza:
+- Raspagem de dados dos discursos presidenciais do site oficial do Planalto
+- Processamento e limpeza dos dados
+- Armazenamento em formato JSON para análise posterior
 
-# Bibliotecas 
-requests
-bs4
-jupyter
-json 
-os
+## 🌐 Fonte dos Dados
+Todos os dados são coletados do portal oficial do Governo Federal:
+- [Discursos e Pronunciamentos do Presidente Lula (2025)](https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/discursos-e-pronunciamentos)
+
+## ⚙️ Tecnologias Utilizadas
+- **Python** como linguagem principal
+- Bibliotecas:
+  - `requests` - Para fazer requisições HTTP
+  - `bs4` (BeautifulSoup) - Para parsing e extração de dados HTML
+  - `json` - Para manipulação de arquivos JSON
+  - `os` - Para operações com sistema de arquivos
+  - `jupyter` - Para desenvolvimento interativo (opcional)
